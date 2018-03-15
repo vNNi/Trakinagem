@@ -22,13 +22,13 @@ gulp.task('serve',function(){
 
 
 gulp.task('sass', function () {
-  return gulp.src(['./sass/**/*.scss','node_modules/bootstrap/scss/bootstrap.scss'])
+  return gulp.src(['./sass/**/index.scss','node_modules/bootstrap/scss/bootstrap.scss'])
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./src/css'));
+    .pipe(gulp.dest('./src/css/'));
 });
  
 gulp.task('watch', function () {
-  gulp.watch('./sass/**/*.scss', ['sass']);
+  gulp.watch('./sass/*.scss', ['sass']);
 });
 
 gulp.task('default',['sass','watch','js','serve']);
