@@ -1,0 +1,46 @@
+header{
+height: 550px;
+background-image: url(../img/bd_1.png);
+background-repeat: no-repeat;
+background-position:top;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+    vertical-align: middle;
+    h1{
+        padding-top: 5px;
+        color:white;
+    }
+        ul li{
+            display: inline-block;
+            a{
+                padding: 0.7em;
+            }
+        }    
+}
+.nav-bar-links{
+    margin-right:4em;
+}
+.header_text{
+    
+    text-align: center;
+    margin-top:6em;
+    h2{
+        font-size:4.5em;
+        color:#5d99c6;
+        font-family: "Lobster", cursive;
+    }p{
+        color:white;
+        font-family: 'Segoe-UI',cursive;
+        font-size:1.5em;
+    }
+    a{
+        display: block;
+        margin-top:3em;
+        
+    }
+}
+
