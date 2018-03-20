@@ -18,6 +18,11 @@ background-position:top;
             display: inline-block;
             a{
                 padding: 0.7em;
+                &:hover,&:focus{
+                    text-decoration: none;
+                    color:#01579b;
+                    
+                }
             }
         }    
 }
@@ -30,7 +35,7 @@ background-position:top;
     margin-top:6em;
     h2{
         font-size:4.5em;
-        color:#5d99c6;
+        color:$titulo-principal;
         font-family: "Lobster", cursive;
     }p{
         color:white;
@@ -38,8 +43,16 @@ background-position:top;
         font-size:1.5em;
     }
     a{
-        display: block;
+        display: inline-block;
         margin-top:3em;
+        color:$branco;
+        background-color: $padrao;
+        font-weight: bold;
+        
+        &:hover,&:focus{
+            text-decoration: none;
+            background-color:$hover;
+        }
         
     }
 }

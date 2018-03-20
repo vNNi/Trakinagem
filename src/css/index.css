@@ -43,6 +43,21 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.btn-small {
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 8px 18px; }
+
+.btn-medium {
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 12px 22px; }
+
+.btn-large {
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 14px 24px; }
+
 header {
   height: 550px;
   background-image: url(../img/bd_1.png);
@@ -61,6 +76,9 @@ header {
     display: inline-block; }
     .nav-bar ul li a {
       padding: 0.7em; }
+      .nav-bar ul li a:hover, .nav-bar ul li a:focus {
+        text-decoration: none;
+        color: #01579b; }
 
 .nav-bar-links {
   margin-right: 4em; }
@@ -77,5 +95,24 @@ header {
     font-family: 'Segoe-UI',cursive;
     font-size: 1.5em; }
   .header_text a {
-    display: block;
-    margin-top: 3em; }
+    display: inline-block;
+    margin-top: 3em;
+    color: white;
+    background-color: #0288d1;
+    font-weight: bold; }
+    .header_text a:hover, .header_text a:focus {
+      text-decoration: none;
+      background-color: #29b6f6; }
+
+#last_decorations h3 {
+  padding: 2em;
+  font-weight: bold; }
+
+.one {
+  width: 33%; }
+
+.two {
+  width: 33%; }
+
+.three {
+  width: 33%; }

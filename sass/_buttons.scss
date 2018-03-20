@@ -1,0 +1,12 @@
+.btn-small{
+    @include border(100px);
+    padding:8px 18px;
+}
+.btn-medium{
+    @include border(100px);
+    padding:12px 22px;
+}
+.btn-large{
+    @include border(100px);
+    padding: 14px 24px;
+}

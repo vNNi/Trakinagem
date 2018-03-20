@@ -1,0 +1,4 @@
+@mixin border($raio){
+    border: 1px solid transparent;
+    border-radius: $raio;
+}
