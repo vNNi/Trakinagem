@@ -108,11 +108,7 @@ header {
   padding: 2em;
   font-weight: bold; }
 
-.one {
-  width: 33%; }
-
-.two {
-  width: 33%; }
-
-.three {
-  width: 33%; }
+#last_decorations a {
+  margin-top: 2em !important;
+  background-color: #0288d1;
+  color: White; }
