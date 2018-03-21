@@ -51,12 +51,12 @@ table {
 .btn-medium {
   border: 1px solid transparent;
   border-radius: 100px;
-  padding: 12px 22px; }
+  padding: 14px 44px; }
 
 .btn-large {
   border: 1px solid transparent;
   border-radius: 100px;
-  padding: 14px 24px; }
+  padding: 16px 56px; }
 
 header {
   height: 550px;
@@ -104,11 +104,32 @@ header {
       text-decoration: none;
       background-color: #29b6f6; }
 
-#last_decorations h3 {
+#last_decorations {
+  margin-top: 5em;
+  margin-bottom: 5em; }
+  #last_decorations h3 {
+    padding: 2em;
+    font-weight: bold; }
+  #last_decorations a {
+    background-color: #0288d1;
+    color: White;
+    margin: 3em 0; }
+    #last_decorations a:hover, #last_decorations a:focus {
+      text-decoration: none;
+      background-color: #29b6f6; }
+
+.center_link {
+  display: flex;
+  justify-content: center; }
+
+#we_do img {
+  padding-top: 6em;
+  width: 300px; }
+
+.we_do h3 {
   padding: 2em;
   font-weight: bold; }
 
-#last_decorations a {
-  margin-top: 2em !important;
-  background-color: #0288d1;
-  color: White; }
+.we_do p {
+  margin-left: 0.5em;
+  font-size: 1.3rem; }

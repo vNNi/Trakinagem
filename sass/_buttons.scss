@@ -4,9 +4,9 @@
 }
 .btn-medium{
     @include border(100px);
-    padding:12px 22px;
+    padding:14px 44px;
 }
 .btn-large{
     @include border(100px);
-    padding: 14px 24px;
+    padding: 16px 56px;
 }
