@@ -3,11 +3,13 @@
     h3{
     padding:2em;
     font-weight: bold;
+    font-family: "Open-sans", sans-serif;
     }
     a{
         background-color:$padrao; 
         color:White;
         margin: 3em 0;
+        box-shadow: 1px 2px 15px black;
         
         &:hover,&:focus{
             text-decoration: none;
@@ -16,16 +18,15 @@
     }
     margin-bottom: 5em;
 }
+.card{
+    box-shadow: 0px 0px 25px $hoverLink;
+}
 .center_link{
     display: flex;
     justify-content: center;
 }
 #we_do{
-    img{
-        padding-top:6em;
-        width:300px;  
-        
-    }
+    padding-bottom: 2em;
 }
 .we_do{
     h3{
@@ -37,5 +38,15 @@
         font-size: 1.3rem;
     }
    
+}
+.carrosel{
+    margin-top:8em;
+    
+}
+.img-large{
+    max-height: 295px;
+}
+#carouselExampleControls{
+    box-shadow: 1px 2px 30px black;
 }
 

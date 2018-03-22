@@ -1,7 +1,7 @@
 header{
 width: 100%;
 height: 550px;
-background-image: url(../img/bd_1.png);
+background-image: url(../img/bd_1_2.png);
 background-repeat: no-repeat;
 background-position:top;
 background-size: cover; 
@@ -20,9 +20,11 @@ background-size: cover;
             display: inline-block;
             a{
                 padding: 0.7em;
+                color:$branco;
+                font-size:1.3em;
                 &:hover,&:focus{
                     text-decoration: none;
-                    color:#01579b;
+                    color:$hover;
                     
                 }
             }
@@ -37,10 +39,10 @@ background-size: cover;
     margin-top:6em;
     h2{
         font-size:4.5em;
-        color:$titulo-principal;
+        color:$branco;
         font-family: "Lobster", cursive;
     }p{
-        color:white;
+        color:$branco;
         font-family: 'Segoe-UI',cursive;
         font-size:1.5em;
     }
