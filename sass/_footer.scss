@@ -1,0 +1,49 @@
+footer{
+    margin-top:5em;
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.menu-footer{
+    color:$branco;
+    padding-top:2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+        ul li{
+            display: inline-block;
+            a{
+                padding: 0.8em;
+                color:$branco;
+                &:hover,&:focus{
+                    text-decoration: none;
+                    color:$hoverLink;
+                    &:visited{
+                        color:$branco;
+                    }
+                 }
+            }
+        }      
+}
+.links-footer{
+    display: flex;
+   justify-content: center;
+   margin:1em;
+       ul li{
+           display: inline-block;
+       } a{
+            padding: 0.5em;
+            font-family: 'Roboto',sans-serif;
+        }
+}
+.contato-footer{
+    display: flex;
+    justify-content: center;
+    p{
+        padding-right:35px;
+        margin:1em 0;
+        color:$branco;
+        font-size:1.3em;
+    }
+}

@@ -59,10 +59,12 @@ table {
   padding: 16px 56px; }
 
 header {
+  width: 100%;
   height: 550px;
   background-image: url(../img/bd_1.png);
   background-repeat: no-repeat;
-  background-position: top; }
+  background-position: top;
+  background-size: cover; }
 
 .nav-bar {
   display: flex;
@@ -133,3 +135,48 @@ header {
 .we_do p {
   margin-left: 0.5em;
   font-size: 1.3rem; }
+
+footer {
+  margin-top: 5em;
+  background: #2980b9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.menu-footer {
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: space-between; }
+  .menu-footer ul li {
+    display: inline-block; }
+    .menu-footer ul li a {
+      padding: 0.8em;
+      color: white; }
+      .menu-footer ul li a:hover, .menu-footer ul li a:focus {
+        text-decoration: none;
+        color: #01579b; }
+        .menu-footer ul li a:hover:visited, .menu-footer ul li a:focus:visited {
+          color: white; }
+
+.links-footer {
+  display: flex;
+  justify-content: center;
+  margin: 1em; }
+  .links-footer ul li {
+    display: inline-block; }
+  .links-footer a {
+    padding: 0.5em;
+    font-family: 'Roboto',sans-serif; }
+
+.contato-footer {
+  display: flex;
+  justify-content: center; }
+  .contato-footer p {
+    padding-right: 35px;
+    margin: 1em 0;
+    color: white;
+    font-size: 1.3em; }
