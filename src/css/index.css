@@ -177,6 +177,11 @@ footer {
         .menu-footer ul li a:hover:visited, .menu-footer ul li a:focus:visited {
           color: white; }
 
+@media only screen and (max-width: 760px) {
+  .menu-footer {
+    display: flex;
+    justify-content: center; } }
+
 .links-footer {
   display: flex;
   justify-content: center;
