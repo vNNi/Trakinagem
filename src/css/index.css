@@ -66,26 +66,15 @@ header {
   background-position: top;
   background-size: cover; }
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  line-height: 80px;
-  vertical-align: middle; }
-  .nav-bar h1 {
-    padding-top: 5px;
-    color: white; }
-  .nav-bar ul li {
-    display: inline-block; }
-    .nav-bar ul li a {
-      padding: 0.7em;
-      color: white;
-      font-size: 1.3em; }
-      .nav-bar ul li a:hover, .nav-bar ul li a:focus {
-        text-decoration: none;
-        color: #29b6f6; }
+.links {
+  color: black !important;
+  font-family: "Roboto",sans-serif;
+  font-size: 1.2rem; }
 
-.nav-bar-links {
-  margin-right: 4em; }
+.navbar-dark .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(41, 162, 246, 0.4); }
 
 .header_text {
   text-align: center;
@@ -126,6 +115,9 @@ header {
 
 .card {
   box-shadow: 0px 0px 25px #01579b; }
+  @media only screen and (max-width: 576px) {
+    .card {
+      box-shadow: 0px 0px 0px white; } }
 
 .center_link {
   display: flex;
