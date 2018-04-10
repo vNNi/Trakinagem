@@ -13,7 +13,7 @@ gulp.task('js', function(){
 
 gulp.task('serve',function(){
    return browserSync.init({
-    server:"./src"
+    server:"index.html"
   });
 
   gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss','src/scss/*.scss'],['sass']);
